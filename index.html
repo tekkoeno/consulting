@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <div data-modal-window="popup" id="popup" class="popup">
+        <div class="popup__body">
+          <div class="popup__content">
+            <button class="popup__close"><i class="fas fa-times"></i></button>
+            <h2 class="popup__title">Получить спец.комплект</h2>
+            <div class="popup__inner">
+              <div class="popup__total">
+                <div class="popup__item-total item-total__left">
+                  <h2 class="popup__total-title">Наименование</h2>
+                  <p class="popup__total-subtitle">3 модуля роста</p>
+                </div>
+                <div class="popup__item-total item-total__right">
+                  <h2 class="popup__total-title">Стоимость</h2>
+                  <p class="popup__total-subtitle">1 570 ₽</p>
+                  <p class="popup__total-text">(без НДС) 1 570 ₽</p>
+                </div>
+              </div>
+              <div class="popup__input">
+                <div class="popup__input-item">
+                  <div class="input__item">
+                    <h2 class="input-item__title">Ваше ФИО</h2>
+                    <input class="input__item-popup" type="text">
+                  </div>
+                  <div class="input__item">
+                    <h2 class="input-item__title">Ваш телефон</h2>
+                    <input class="input__item-popup input__number number-img" type="number" placeholder="7 (999) 999-99-99">
+                  </div>
+                  <div class="input__item">
+                    <h2 class="input-item__title">Ваш e-mail</h2>
+                    <input class="input__item-popup" type="text">
+                  </div>
+                </div>
+                <div class="input__footer">
+                  <div class="input__btn-item">
+                    <button class="input__btn">Оплатить</button>
+                  </div>
+                  <p class="popup__input-rights">Нажимая на кнопку, Вы даете согласие на обработку своих персональных данных, соглашаетесь с Политикой конфиденциальности, подтверждаете своё согласие с условиями договора-оферты.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div data-modal-video="video-1" id="video" class="video">
+      <div class="video__body">
+        <div class="video__content">
+          <p class="video__close">Закрыть</p>
+          <video class="video__item" src="video/video-1.mp4" controls></video>
+        </div>
+      </div>
+    </div>
+    <div data-modal-video="video-2" id="video" class="video">
+      <div class="video__body">
+        <div class="video__content">
+          <p class="video__close">Закрыть</p>
+          <video class="video__item" src="video/video-2.mp4" controls></video>
+        </div>
+      </div>
+    </div>
+    <div data-modal-video="video-3" id="video" class="video">
+      <div class="video__body">
+        <div class="video__content">
+          <p class="video__close">Закрыть</p>
+          <video class="video__item" src="video/video-3.mp4" controls></video>
+        </div>
+      </div>
+    </div>
+    <div data-modal-video="video-4" id="video" class="video">
+      <div class="video__body">
+        <div class="video__content">
+          <p class="video__close video__close-4">Закрыть</p>
+          <video class="video__item" src="video/video-4.mp4" controls></video>
+        </div>
+      </div>
+    </div>
+    <div data-modal-video="video-5" id="video" class="video">
+      <div class="video__body">
+        <div class="video__content">
+          <p class="video__close video__close-5">Закрыть</p>
+          <video class="video__item" src="video/video-5.mp4" controls></video>
+        </div>
+      </div>
+    </div>
+  <header class="header">
+    <div class="container">
+      <div class="header__wrap">
+        <img class="header__img" src="images/novikova__img.svg" alt="novikova__img">
+        <div class="header__content">
+          <a class="header__logo" href="#"><img src="images/logo.svg" alt="logo"></a>
+          <h2 class="header__title">Как увеличить прибыль и дивиденды в 2 раза за 6 месяцев, автоматизировать управление бизнесом и выйти из операционки?</h2>
+          <div class="header__btn-item">
+            <button data-modal-btn="popup" class="header__btn">Да, я хочу увеличить прибыль</button>
+            <p class="header__price"> <u>39 477 ₽</u> <span class="price-span">1 570 ₽</span></p>
+          </div>
+          <p class="header__text">Закрытый практический курс с 26 видео и инструментами для расчетов прибыли, фондов, статистик собственника, финансовой модели.Все это без дополнительных затрат.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="results">
+    <div class="container">
+      <div class="results__block">
+        <h2 class="results__title">Результаты</h2>
+        <div class="results__item-inner">
+          <div class="results__item">
+            <h2 class="results__price-title">x2</h2>
+            <p class="results__price-text">Темпы роста <span>прибыли</span> </p>
+          </div>
+          <div class="results__item">
+            <h2 class="results__price-title">100%</h2>
+            <p class="results__price-text">Эффективность <span>управления</span></p>
+          </div>
+          <div class="results__item">
+            <h2 class="results__price-title">37 887₽</h2>
+            <p class="results__price-text">Ваша мгновенная <span>выгода</span> </p>
+          </div>
+        </div>
+      </div>
+      <div class="results__info">
+        <h2 class="results__title title-info">Почему это будет полезно именно вам</h2>
+        <ul class="info-list__item">
+          <li class="results__list">Если вам нужно выйти из операционки;</li>
+          <li class="results__list">Если вам необходима систематизация управления;</li>
+          <li class="results__list">Если вам нужен ключ к выходу из застоя и план роста;</li>
+          <li class="results__list">Если у вас есть сложности с финансовым управлением и отцифровкой;</li>
+          <li class="results__list">Если нужно найти узкое горлышко для увеличения потока заявок, выручки.</li>
+        </ul>
+        <div class="buton__item">
+          <button data-modal-btn="popup" class="results__btn">Получить инструменты</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="stage stage-1">
+    <div class="stage-1__inner">
+      <div class="container">
+        <div class="stage-top__block">
+          <h2 class="stage-top__title">1 этап - Приборная панель владельца. Автоматизация.</h2>
+          <p class="stage-top__text">Что больше всего влияет на рост доходов и компании?</p>
+          <p class="stage-top__text">Если собственник не видит ключевых статистик бизнеса, а его голова занята решением только насущных проблем — практически невозможно найти точки роста и разработать стратегию масштабирования.</p>
+          <p class="stage-top__text">Решение — создать систему управления на основе цифр, когда ваш бизнес развивается и без вашего участия в оперативных вопросах.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="stage__inner">
+        <div class="stage__information">
+          <div class="stage__information-item">
+            <div class="macbook__img-item">
+              <div class="img__video-item">
+                <img class="img-video" src="images/img-1.svg">
+              </div>
+              <img class="stage__information-img" src="images/macbook__img.png" alt="macbook__img">
+            </div>
+            <div class="stage__information-inner">
+              <h2 class="information-inner__title">+100% к полному контролю над деньгами бизнеса</h2>
+              <p class="information-inner__subtitle">5 видео-уроков</p>
+              <p class="information-inner__text">Как сделать из хаоса систему и сосредоточиться на росте бизнеса?
+              Оцифроваться и оторваться от рутинных задач?</p>
+              <div class="inner__price-item">
+                <p class="information-inner__price">8 990 ₽</p>
+              </div>
+            
+            </div>
+          </div>
+          <div class="stage__information-item">
+            <div class="macbook__img-item">
+              <div class="img__video-item">
+                <img class="img-video" src="images/img-2.svg">
+              </div>
+              <img class="stage__information-img" src="images/macbook__img.png" alt="macbook__img">
+            </div>
+            <div class="stage__information-inner float-right">
+              <h2 class="information-inner__title">+ 50% к выполнению планов за счет грамотного управления</h2>
+              <p class="information-inner__subtitle">1 видео-урок</p>
+              <p class="information-inner__text">Как внедрить систему контроля выполнения целей и задач, выполнения регламентов и инструкций, чтобы каждый сотрудник четко понимал свои показатели и цели.</p>
+              <div class="inner__price-item">
+                <p class="information-inner__price">1 200 ₽</p>
+              </div>
+            </div>
+          </div>
+          <div class="stage__information-item">
+            <div class="macbook__img-item">
+              <div data-video-btn="video-1" class="play__video">
+                <button class="play__video-btn">Смотреть видео</button>
+              </div>
+              <img class="stage__information-img" src="images/macbook__img.png" alt="macbook__img">
+            </div>
+            <div class="stage__information-inner">
+              <h2 class="information-inner__title">Таблица Финансовая модель и Точка безубыточности</h2>
+              <p class="information-inner__subtitle">Скорость внедрения: 2 дня</p>
+              <p class="information-inner__text">+30% к прибыли и дивидендам за квартал.</p>
+              <h2 class="list__title">С её помощью вы с нуля сможете:</h2>
+              <ul class="information-inner__list">
+                <li class="inner__list-item">Выявить 25 показателей для роста прибыли + 30-50% за квартал;</li>
+                <li class="inner__list-item">Сделать первую версию оцифрованной модели бизнеса и легко рассчитать точку безубыточности.</li>
+              </ul>
+              <button data-modal-btn="popup" class="information-inner__btn">Получить комплект</button>
+            </div>
+          </div>
+          <div class="stage__information-item">
+            <div class="macbook__img-item">
+              <div data-video-btn="video-2" class="play__video">
+                <button class="play__video-btn">Смотреть видео</button>
+              </div>
+              <img class="stage__information-img" src="images/macbook__img.png" alt="macbook__img">
+            </div>
+            <div class="stage__information-inner float-right">
+              <h2 class="information-inner__title">Таблица «Отчет о движении денежных средств»</h2>
+              <p class="information-inner__subtitle">Скорость внедрения: 1 день</p>
+              <p class="information-inner__text">+30-50% к остатку денег в кошельках за квартал.</p>
+              <h2 class="list__title">С её помощью вы с нуля сможете:</h2>
+              <ul class="information-inner__list">
+                <li class="inner__list-item">Увеличить остаток денег на счетах и в кассе на 30-50% за квартал;</li>
+                <li class="inner__list-item">Разделить свои финансы и деньги бизнеса.</li>
+              </ul>
+              <button data-modal-btn="popup" class="information-inner__btn">Получить комплект</button>
+            </div>
+          </div>
+          <div class="stage__information-item">
+            <div class="macbook__img-item">
+              <div data-video-btn="video-3" class="play__video">
+                <button class="play__video-btn">Смотреть видео</button>
+              </div>
+              <img class="stage__information-img" src="images/macbook__img.png" alt="macbook__img">
+            </div>
+            <div class="stage__information-inner">
+              <h2 class="information-inner__title">Таблица «Отчет о прибылях и убытках»</h2>
+              <p class="information-inner__subtitle">Скорость внедрения: 2 дня</p>
+              <p class="information-inner__text">+30% к прибыли и дивидендам за квартал.</p>
+              <p class="information-inner__subtext">Ежедневный автоматический учет доходов и расходов поможет выявить 5 ключевых метрик и удерживать маржу в плюсе.</p>
+              <button data-modal-btn="popup" class="information-inner__btn">Получить комплект</button>
+            </div>
+          </div>
+          <div class="stage__information-item">
+            <div class="macbook__img-item">
+              <div data-video-btn="video-4" class="play__video">
+                <button class="play__video-btn">Смотреть видео</button>
+              </div>
+              <img class="stage__information-img" src="images/macbook__img.png" alt="macbook__img">
+            </div>
+            <div class="stage__information-inner float-right">
+              <h2 class="information-inner__title">Таблица «Калькулятор скидок»</h2>
+              <p class="information-inner__subtitle">Скорость внедрения: 1 день </p>
+              <p class="information-inner__text">+30% к росту маржи.</p>
+              <p class="information-inner__subtext">Внедрите алгоритм грамотного расчета скидок и увеличите маржу на 20-50% за счет разумного управления ценой.</p>
+              <button data-modal-btn="popup" class="information-inner__btn">Получить комплект</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="check-list__block">
+        <h2 class="check-list__title">Дополнительные чек-листы для взрывного роста</h2>
+        <div class="check-list__item-inner">
+          <div class="check-list__item">
+            <div class="check-list__inner">
+              <img class="check-list__logo" src="images/checklist__logo.svg" alt="logo">
+            <h2 class="list-item__title">ЧЕК-ЛИСТ</h2>
+            <h2 class="list-item__subtitle">Показатели <br> владельца бизнеса</h2>
+            <p class="list-item__text">Получите приборную панель как в истребителе по метрикам бизнеса! Будете грамотно жать на кнопки роста прибыли.</p>
+            <img class="check-list__icon" src="images/check-list__icon.svg" alt="check-list__icon">
+            </div>
+          </div>
+          <div class="check-list__item">
+            <div class="check-list__inner">
+              <img class="check-list__logo" src="images/checklist__logo.svg" alt="logo">
+            <h2 class="list-item__title">ЧЕК-ЛИСТ</h2>
+            <h2 class="list-item__subtitle">ДДС, ОПиУ <br> и Баланс</h2>
+            <p class="list-item__text">Как эффективно вести отчет движении денежных средств, отчет о прибылях и убытках, управленческий учет.</p>
+            <img class="check-list__icon" src="images/check-list__icon2.svg" alt="check-list__icon2">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="stage stage-2">
+    <div class="stage-2__inner">
+      <div class="container">
+        <div class="stage-top__block">
+          <h2 class="stage-top__title">2 этап – Финансовое планирование и система фондов.</h2>
+          <p class="stage-top__text">После того, как вы высвободили 3-4 часа в день от решения рутинных задач появляется ощущение пустоты и некоторая растерянность.</p>
+          <p class="stage-top__text">Какие цели у компании и как их грамотно донести до сотрудников?
+          Как выстроить стратегию роста в показателях?</p>
+          <p class="stage-top__text">У вас появилось ощущение финансовой стабильности и огромное количество времени, чтобы встать у руля корабля и повести его к масштабированию прибыли!</p>
+          <p class="stage-top__text">Решение — получить опыт компаний ГАЗ, РЖД, World Class, которые имеют 95% выполнения плана по прибыли.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="stage__inner">
+        <div class="stage__information">
+          <div class="stage__information-item">
+            <div class="macbook__img-item">
+              <div class="img__video-item">
+                <img class="img-video" src="images/img-3.svg">
+              </div>
+              <img class="stage__information-img" src="images/macbook__img.png" alt="macbook__img">
+            </div>
+            <div class="stage__information-inner">
+              <h2 class="information-inner__title">+ 30-50% роста ваших дивидендов за 6 месяцев</h2>
+              <p class="information-inner__subtitle">5 видео-уроков</p>
+              <p class="information-inner__text">Избавитесь от лишних расходов и заработаете больше денег на себя.
+              -30% расходов за квартал. Составите дерево финансовых целей компании.</p>
+              <div class="inner__price-item">
+                <p class="information-inner__price">7 990 ₽</p>
+              </div>
+            </div>
+          </div>
+          <div class="stage__information-item">
+            <div class="macbook__img-item">
+              <div data-video-btn="video-4" class="play__video">
+                <button class="play__video-btn">Смотреть видео</button>
+              </div>
+              <img class="stage__information-img" src="images/macbook__img.png" alt="macbook__img">
+            </div>
+            <div class="stage__information-inner float-right">
+              <h2 class="information-inner__title">Таблицы «Финансовое планирование» и «Платежный календарь»</h2>
+              <p class="information-inner__subtitle">Скорость внедрения: 2 дня</p>
+              <h2 class="list__title">С её помощью вы с нуля сможете:</h2>
+              <ul class="information-inner__list">
+                <li class="inner__list-item">Спрогнозировать финансовые показатели бизнеса;</li>
+                <li class="inner__list-item">Оценить эффективность нового проекта;</li>
+                <li class="inner__list-item">Рассчитать потребность в дополнительных финансах.</li>
+              </ul>
+              <button data-modal-btn="popup" class="information-inner__btn">Получить комплект</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="check-list__block">
+        <h2 class="check-list__title">Дополнительные чек-листы для взрывного роста</h2>
+        <div class="check-list__item-inner">
+          <div class="check-list__item">
+            <div class="check-list__inner">
+              <img class="check-list__logo" src="images/checklist__logo.svg" alt="logo">
+            <h2 class="list-item__title">ЧЕК-ЛИСТ</h2>
+            <h2 class="list-item__subtitle">Распределения <br> денег по Фондам</h2>
+            <p class="list-item__text">Начинаем четко получать дивиденды по графику, формировать фонды резерва и инвестиций.</p>
+            <img class="check-list__icon" src="images/check-list__icon3.svg" alt="check-list__icon">
+            </div>
+          </div>
+          <div class="check-list__item">
+            <div class="check-list__inner ">
+              <img class="check-list__logo" src="images/checklist__logo.svg" alt="logo">
+            <h2 class="list-item__title">ЧЕК-ЛИСТ</h2>
+            <h2 class="list-item__subtitle">Сбор Дебиторки <br> на 100%</h2>
+            <p class="list-item__text item__text-bottom">Увеличиваем выручку на 30% ежемесячно.</p>
+            <img class="check-list__icon" src="images/check-list__icon4.svg" alt="check-list__icon2">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="stage stage-3">
+    <div class="stage-3__inner">
+      <div class="container">
+        <div class="stage-top__block">
+          <h2 class="stage-top__title">3 этап – Безокладная зарплата</h2>
+          <p class="stage-top__text">После постановки целей и понимания того, на какие кнопки жать для роста прибыли, появляется закономерный вопрос — как мотивировать сотрудников на достижение этих цифр по прибыли?</p>
+          <p class="stage-top__text">Решение — начислять зарплату сотрудникам только за результат работы, в т. ч. компании и не платить оклады из своего кармана.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="stage__inner">
+        <div class="stage__information">
+          <div class="stage__information-item">
+            <div class="macbook__img-item">
+              <div class="img__video-item">
+                <img class="img-video" src="images/img-4.svg">
+              </div>
+              <img class="stage__information-img" src="images/macbook__img.png" alt="macbook__img">
+            </div>
+            <div class="stage__information-inner">
+              <h2 class="information-inner__title">+30% маржа на сотрудника</h2>
+              <p class="information-inner__subtitle">3 видео-урока</p>
+              <p class="information-inner__text">Начнете контролировать зарплату сотен сотрудников удаленно и формировать выплаты по конкретному результату. Что обеспечивает стабильный рост прибыли и масштабирование бизнеса на 70% в год.</p>
+              <div class="inner__price-item">
+                <p class="information-inner__price">5 990 ₽ </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="check-list__block">
+        <h2 class="check-list__title">Дополнительные чек-листы для взрывного роста</h2>
+        <div class="check-list__item-inner check-list__item-inner-3">
+          <div class="check-list__item list__item-3">
+            <div class="check-list__inner list__inner">
+              <img class="check-list__logo" src="images/checklist__logo.svg" alt="logo">
+            <h2 class="list-item__title list__title-3">СХЕМА</h2>
+            <h2 class="list-item__subtitle item__subtitle-3">Начисления <br> «Безокладной» зарплаты</h2>
+            <p class="list-item__text list__text-3 text-left">Пишем план передачи финансовой ответственности и полномочий на сотрудников.</p>
+            <img class="check-list__icon" src="images/check-list__icon5.svg" alt="check-list__icon">
+            </div>
+          </div>
+          <div class="check-list__item list__item-3">
+            <div class="check-list__inner list__inner">
+              <img class="check-list__logo" src="images/checklist__logo.svg" alt="logo">
+            <h2 class="list-item__title list__title-3">СИСТЕМА</h2>
+            <h2 class="list-item__subtitle item__subtitle-3">КРI для 10 основных <br> должностей</h2>
+            <p class="list-item__text list__text-3 item__text-bottom">Объединяем команду и забываем про кассовые разрывы.</p>
+            <img class="check-list__icon" src="images/check-list__icon6.svg" alt="check-list__icon2">
+            </div>
+          </div>
+          <div class="check-list__item list__item-3">
+            <div class="check-list__inner list__inner">
+              <img class="check-list__logo" src="images/checklist__logo.svg" alt="logo">
+              <h2 class="list-item__title list__title-3">ЧЕК-ЛИСТ</h2>
+              <h2 class="list-item__subtitle item__subtitle-3">Пошаговый план   <br> выхода из операционки</h2>
+              <p class="list-item__text list__text-3 item__text-bottom text-bottom"></p>
+              <img class="check-list__icon" src="images/check-list__icon7.svg" alt="check-list__icon2">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="course">
+    <div class="course-top__inner">
+      <div class="container">
+        <div class="course-top__block">
+          <h2 class="course-top__title">Мы разработали данный кейс используя Американский опыт!</h2>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="course__inner">
+        <div class="course__price-block">
+          <h2 class="course__price-title">Что входит в курс?</h2>
+          <div class="course__price-inner">
+            <p class="price__inner-title">Инструменты и видеоуроки:</p>
+            <div class="price__item">
+              <ul class="price__inner-list">
+                <div class="price__list-item">
+                  <li class="price__list">Комплект «Приборная панель владельца. Автоматизация» + 5 видеоуроков;</li>
+                  <p class="list__item-price">8990 ₽</p>
+                </div>
+                <div class="price__list-item">
+                  <li class="price__list">Комплект «Регулярный менеджмент» + 1 видеоурок;</li>
+                  <p class="list__item-price">1200 ₽</p>
+                </div>
+                <div class="price__list-item">
+                  <li class="price__list">Комплект «Финансовое планирование и система фондов» »	+ 5 видеоуроков;</li>
+                  <p class="list__item-price">7990 ₽</p>
+                </div>
+                <div class="price__list-item">
+                  <li class="price__list">Комплект «Безокладная зарплата» + 3 видеоурока;</li>
+                  <p class="list__item-price">5990 ₽</p>
+                </div>
+                <div class="price__list-item">
+                  <li class="price__list">Умная таблица «Финансовая модель и Точка безубыточности»;</li>
+                  <p class="list__item-price">1570 ₽</p>
+                </div>
+                <div class="price__list-item">
+                  <li class="price__list">Умная таблица « Отчет о движении денежных средств»;</li>
+                  <p class="list__item-price">1570 ₽</p>
+                </div>
+                <div class="price__list-item">
+                  <li class="price__list">Умная таблица «Отчет о прибылях и убытках»;</li>
+                  <p class="list__item-price">1570 ₽</p>
+                </div>
+                <div class="price__list-item">
+                  <li class="price__list">Умная таблица «Калькулятор скидок»;</li>
+                  <p class="list__item-price">1570 ₽</p>
+                </div>
+                <div class="price__list-item">
+                  <li class="price__list">Умная таблица «Финансовое планирование»;</li>
+                  <p class="list__item-price">1570 ₽</p>
+                </div>
+                <div class="price__list-item">
+                  <li class="price__list">Умная таблица «Платежный календарь».</li>
+                  <p class="list__item-price">1570 ₽</p>
+                </div>
+              </ul>
+            </div>
+            <p class="price__inner-title">Чек-листы для взрывного роста:</p>
+            <div class="price__item">
+              <div class="price__list-item">
+                <li class="price__list">Чек – лист «Показатели владельца бизнеса»;</li>
+                <p class="list__item-price">470 ₽</p>
+              </div>
+              <div class="price__list-item">
+                <li class="price__list">Чек – лист «ДДС, ОПиУ и Баланс»;</li>
+                <p class="list__item-price">470 ₽</p>
+              </div>
+              <div class="price__list-item">
+                <li class="price__list">Чек-лист «Распределение денег по фондам»;</li>
+                <p class="list__item-price">470 ₽</p>
+              </div>
+              <div class="price__list-item">
+                <li class="price__list">Чек-лист «Сбор Дебиторки на 100%»;</li>
+                <p class="list__item-price">470 ₽</p>
+              </div>
+              <div class="price__list-item">
+                <li class="price__list">Чек-лист «Схема начисления безокладной зарплаты»;</li>
+                <p class="list__item-price">470 ₽</p>
+              </div>
+              <div class="price__list-item">
+                <li class="price__list">Система КРI для 10 основных должностей;</li>
+                <p class="list__item-price">470 ₽</p>
+              </div>
+              <div class="price__list-item">
+                <li class="price__list">Пошаговый план выхода собственника из операционки.</li>
+                <p class="list__item-price">470 ₽</p>
+              </div>
+              </ul>
+            </div>
+          </div>
+          <div class="course__total-block">
+            <div class="total__block-inner">
+              <div class="total__block-item">
+                <h2 class="total__block-title">Для всех:</h2>
+                <p class="total__block-amount block-amount__line-through">39 457 ₽</p>
+              </div>
+              <div class="total__block-item">
+                <h2 class="total__block-title">Для вас:</h2>
+                <p class="total__block-amount block-amount__new">1 570 ₽</p>
+              </div>
+            </div>
+            <div class="total__block-btn-item">
+              <button data-modal-btn="popup" class="total__block-btn">Получить инструменты</button>
+            </div>
+          </div>  
+        </div>
+        <div class="course__get-block">
+          <img class="course__get-img" src="images/novikova_smile.png" alt="novikova__smile">
+          <div class="course__get-info">
+            <h2 class="course__get-title">Действуйте сейчас!</h2>
+            <p class="course__get-text">Получите курс, изучите видео, внедрите «умные» таблицы, чек-листы, найдите точки роста, выберите инструменты и начните масштабироваться уже сегодня.</p>
+            <div class="course__get-btn-item">
+              <button data-modal-btn="popup" class="course__get-btn">Получить инструменты</button>
+              <div class="course__get-benefit">
+                <h2 class="get__benefit-title">Ваша выгода:</h2>
+                <p class="get__benefit-price">37 887₽</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__info">
+          <img class="footer__logo" src="images/logo.svg" alt="logo-footer">
+          <p class="footer__info-text">ООО «Новикова Консалтинг» <br> <span>ИНН 5258149445</span></p>
+        </div>
+        <div class="footer__item-inner">
+          <div class="footer__item">
+            <h2 class="footer__item-title">Контакты</h2>
+            <li class="footer__list-item"><a class="footer__list-link" href="#">Telegram:<br> <span>@Novikova_finance</span> </a></li>
+            <li class="footer__list-item"><a class="footer__list-link" href="#">Телефон:<br> <span>8 (800) 6005237</span> </a></li>
+            <li class="footer__list-item"><a class="footer__list-link" href="#">Telegram, WhatsApp, Viber<br> <span>8-960-177-71-01</span> </a></li>
+          </div>
+          <div class="footer__item footer-float">
+            <li class="footer__list-item"><a class="footer__list-link" href="#">Эл.почта:<br> <span>info@novikova.pro</span> </a></li>
+            <li class="footer__list-item"><a class="footer__list-link" href="#">Skype:<br> <span>nsvdovina</span> </a></li>
+          </div>
+          <div class="footer__item">
+            <h2 class="footer__item-title">Информация</h2>
+            <li class="footer__list-item"><a class="footer__list-link line-down" href="#">Как сделать заказ</a></li>
+            <li class="footer__list-item"><a class="footer__list-link line-down" href="#">Договор оферта</a></li>
+            <li class="footer__list-item"><a class="footer__list-link line-down" href="#">Конфиденциальность</a></li>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+
+  <script src="js/main.js"></script>
+</body>
+</html>
